@@ -17,9 +17,9 @@ export default function Home() {
          />
 
          <View style={styles.textContainer}>
-            <Text style={styles.text}>TÊNIS</Text>
-            <Text style={[styles.text, { color: '#CECECF'} ]}>•</Text>
-            <Text style={[styles.text, { color: '#CECECF'} ]}>MASCULINO</Text>
+            <Text style={styles.text}>NERD MILENIUN</Text>
+            <Text style={[styles.text, { color: '#CECECF'} ]}>-</Text>
+            <Text style={[styles.text, { color: '#CECECF'} ]}>PRODUTOS</Text>
               <MaterialIcons
                 name="filter-list"
                 size={24}
@@ -34,29 +34,29 @@ export default function Home() {
         <Text style={styles.text}>LANÇAMENTOS</Text>
 
         <View style={{ flexDirection: 'row', justifyContent: 'space-around' }}>
-          <Shoes img={require('../../assets/1.png')} cost="R$140,90" onClick={()=> navigation.navigate('Details') }>
-            Nike Air Max Dia
+          <Shoes img={require('../../assets/1.png')} cost="R$39,90" onClick={()=> navigation.navigate('Details') }>
+            ALMOFADAS
           </Shoes>
-          <Shoes img={require('../../assets/2.png')} cost="R$280,90" onClick={()=> navigation.navigate('Details') }>
-            Nike Downshifter 10
-          </Shoes>
-        </View>
-
-        <View style={{ flexDirection: 'row', justifyContent: 'space-around' }}>
-          <Shoes img={require('../../assets/3.png')} cost="R$560,90" onClick={()=> alert('CLICOU')}>
-            Nike Squidward Tentacles
-          </Shoes>
-          <Shoes img={require('../../assets/4.png')} cost="R$220" onClick={()=> alert('CLICOU')}>
-          Nike Epic React Flyknit 2
+          <Shoes img={require('../../assets/2.png')} cost="R$89,90" onClick={()=> navigation.navigate('DetailsQuadros') }>
+            QUADROS
           </Shoes>
         </View>
 
         <View style={{ flexDirection: 'row', justifyContent: 'space-around' }}>
-          <Shoes img={require('../../assets/5.png')} cost="R$120,90" onClick={()=> alert('CLICOU')}>
-            Nike Joyride Run Flyknit
+          <Shoes img={require('../../assets/3.png')} cost="R$160,90" onClick={()=> alert('CLICOU')}>
+            POP FUNKO
           </Shoes>
-          <Shoes img={require('../../assets/6.png')} cost="R$920" onClick={()=> alert('CLICOU')}>
-            Nike Air Max Dia Sujeito Programador
+          <Shoes img={require('../../assets/4.png')} cost="R$80,00" onClick={()=> alert('CLICOU')}>
+           CANECAS
+          </Shoes>
+        </View>
+
+        <View style={{ flexDirection: 'row', justifyContent: 'space-around' }}>
+          <Shoes img={require('../../assets/5.png')} cost="R$4 200,00" onClick={()=> alert('CLICOU')}>
+            PLAY STATION
+          </Shoes>
+          <Shoes img={require('../../assets/6.png')} cost="R$50,00" onClick={()=> alert('CLICOU')}>
+            MASCARAS
           </Shoes>
         </View>
 
