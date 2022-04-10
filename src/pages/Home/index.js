@@ -34,10 +34,10 @@ export default function Home() {
         <Text style={styles.text}>LANÇAMENTOS</Text>
 
         <View style={{ flexDirection: 'row', justifyContent: 'space-around' }}>
-          <Shoes img={require('../../assets/1.png')} cost="R$140,90" onClick={()=> navigation.navigate('Detail') }>
+          <Shoes img={require('../../assets/1.png')} cost="R$140,90" onClick={()=> navigation.navigate('Details') }>
             Nike Air Max Dia
           </Shoes>
-          <Shoes img={require('../../assets/2.png')} cost="R$280,90" onClick={()=> navigation.navigate('Detail') }>
+          <Shoes img={require('../../assets/2.png')} cost="R$280,90" onClick={()=> navigation.navigate('Details') }>
             Nike Downshifter 10
           </Shoes>
         </View>
