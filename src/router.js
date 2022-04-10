@@ -8,6 +8,8 @@ import { TouchableOpacity } from 'react-native';
 
 import Home from './pages/Home';
 import Details from './pages/Details';
+import DetailsQuadros from './pages/Details/detailsQuadros';
+
 
 const Stack = createStackNavigator();
 
@@ -35,7 +37,23 @@ function Routes(){
                         )
                     }}
                     />
+                    <Stack.Screen 
+                    name="DetailsQuadros"
+                    component={DetailsQuadros}
+                    options={{
+                        headerRight: () => (
+                        <TouchableOpacity style={{ marginRight: 15 }}>
+                            <Feather
+                            name="shopping-cart"
+                            size={24}
+                            color="black"
+                            />
+                        </TouchableOpacity>  
+                        )
+                    }}
+                    />
                 </Stack.Navigator>
+                
             </NavigationContainer>
     )
 }
